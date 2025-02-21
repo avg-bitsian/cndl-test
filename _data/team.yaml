@@ -35,8 +35,8 @@
   display: 1
   undefined: ''
   acknowledgement: I understand and agree
-  alumni: 0
-  alumni_current: ''
+  alumni: 1
+  alumni_current: Pursuing PhD (Neuroscience) at UT Austin
   year: '2022'
 - timestamp: 2/9/2024 11:20:27
   name: Prakash Mishra
@@ -57,7 +57,7 @@
   year: '2023'
 - timestamp: 2/9/2024 11:33:19
   name: Pragya Verma
-  position: Research Assistant
+  position: PhD student
   email: pragya9verma [at] gmail.com
   bio1: Neural effects of smartphone use, EEG biomarkers of anxiety
   bio2: ''
@@ -220,7 +220,7 @@
   undefined: ''
   acknowledgement: I understand and agree
   alumni: 1
-  alumni_current: ''
+  alumni_current: Applying for PhD
   year: '2022'
 - timestamp: 2/10/2024 23:00:41
   name: Virendra Patel
@@ -294,3 +294,41 @@
   alumni: 1
   alumni_current: ''
   year: '2023'
+- timestamp: 2/16/2025 22:27:23
+  name: Shruti Vatsa
+  position: Research Assistant
+  email: shruti.vatsa.15[at]gmail.com
+  bio1: >-
+    Investigating the Neurocognitive Correlates of Social Media Foraging Using
+    Smartphone Tracking and EEG
+  bio2: Junior Research Fellow
+  bio3: >-
+    B.Tech-M.Tech Dual Degree at IIT Kanpur (2023)(Civil Engg. - Biological
+    Sciences and Bioengineering)
+  bio4: ''
+  image: >-
+    https://drive.google.com/thumbnail?id=1rW_iQ1uhdSHda3clB4y2ylq-psKhHW5f&sz=w300
+  affiliation: School of Artificial Intelligence and Data Science (IIT Jodhpur)
+  display: 1
+  undefined: ''
+  acknowledgement: I understand and agree
+  alumni: 0
+  alumni_current: ''
+  year: '2025'
+- timestamp: 2/17/2025 16:38:39
+  name: Nimish Kumar
+  position: PhD student
+  email: p24ai0002[at]iitj.ac.in
+  bio1: Computational Whole Brain Models
+  bio2: ''
+  bio3: ''
+  bio4: ''
+  image: >-
+    https://drive.google.com/thumbnail?id=1MJFKRysq-R2dhg2bf_nFMGDj561UJHhk&sz=w300
+  affiliation: School of Artificial Intelligence and Data Science (IIT Jodhpur)
+  display: 1
+  undefined: ''
+  acknowledgement: I understand and agree
+  alumni: 0
+  alumni_current: ''
+  year: '2024'
