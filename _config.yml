@@ -10,7 +10,7 @@ title: Cognition and Neural Dynamics Lab at IIT-Jodhpur
 email: sgandhi@iitj.ac.in
 description: > # this means to ignore newlines until "baseurl:"
   Website of the Cognition and Neural Dynamics Lab at IIT-Jodhpur.
-baseurl: "/cndl-website"
+# baseurl: "/cndl-website"
 url: ""
 theme: jekyll-theme-minimal
 
