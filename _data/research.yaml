@@ -49,14 +49,15 @@
 - title: "Whole brain dynamical models"
   image: ""
   question: ""
-  description: >
-    Broadly, we are interested in developing simple, minimalistic whole-brain models that can still effectively explain experimental data. We collaborate with experimentalists, especially the Allen Institute, to get data for our models. 
+  description: |
+    Broadly, we are interested in developing simple, minimalistic whole-brain models that can still effectively explain experimental data. 
+    We collaborate with experimentalists, especially the Allen Institute, to get data for our models. 
     Some of the projects include:
 
-    <li>
-    <li>Simple models for epilepsy in the mouse brain</li>
-    <li>Modeling neural dynamics in mouse brains under waking and anesthetized conditions</li>
-    </li>
+    <ol>
+      <li>Simple models for epilepsy in the mouse brain</li>
+      <li>Modeling neural dynamics in mouse brains under waking and anesthetized conditions</li>
+    </ol>
 
   link_url: ""
   link_display: ""

@@ -19,7 +19,7 @@ Broadly study certain aspects of cognition, neural dynamics and the relationship
 <img src="https://drive.google.com/thumbnail?id=1H1eMgF_1yUvdHzjVKdAMwETGMdOuY0av&sz=w600" class="img-responsive" style="float: left" />
 </div>
 <div class="col-sm-8" markdown="1">
-Saurabh is an Assistant Professor at the Department of of Electrical & Electronics Engineering at BITS Pilani, Pilani campus. From 2024–2025, he was **DBT/Wellcome Trust India Alliance Early Career Fellow**, and an Assistant Professor in the Center for Brain Science at Applications, School of AIDE at IIT Jodhpur. Previously he was a faculty member in the Electrical Engineering Department at IIT Delhi for 2 years, and a computational neuroscientist at the [[Allen Institute for Brain Science](https://alleninstitute.org/brain-science)] in Seattle, Washington for 1.5 years, studying different aspects of consciousness.
+Saurabh is an Assistant Professor at the Department of of Electrical & Electronics Engineering at BITS Pilani, Pilani campus. From 2024–2025, he was **DBT/Wellcome Trust India Alliance Early Career Fellow**, and an Assistant Professor in the Center for Brain Science at Applications, School of AIDE at IIT Jodhpur. Previously he was a faculty member in the Electrical Engineering Department at IIT Delhi for 2 years, and a computational neuroscientist at the [Allen Institute for Brain Science(https://alleninstitute.org/brain-science)] in Seattle, Washington for 1.5 years, studying different aspects of consciousness.
 
 Saurabh did his PhD from MIT in Jeff Gore's lab studying the ecological and evolutionary dynamics of yeast populations using experimental and computational modelling techniques. As an undergrad, he is trained as a physicist from IIT Bombay.
 

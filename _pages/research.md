@@ -19,9 +19,9 @@ permalink: /research/
         <img src="{{ item.image }}" class="img-responsive" width="80%" style="float: center; margin-bottom: 10px;" />
       {% endif %}
       {% if item.question and item.question != "" %}
-        <p><b>Question:</b> {{ item.question | markdownify }}</p>
+        <p><b>Question:</b> {{ item.question}}</p>
       {% endif %}
-      <p>{{ item.description | markdownify }}</p>
+      {{ item.description | markdownify }}
       {% if item.link_url and item.link_url != "" %}
         <p><strong><a href="{{ item.link_url }}">{{ item.link_display }}</a></strong></p>
       {% endif %}
