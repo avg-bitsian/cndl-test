@@ -1,5 +1,5 @@
 ---
-title: "CNDL@IITJ - Research"
+title: "CNDL@BITSP - Research"
 layout: gridlay
 sitemap: false
 permalink: /research/
@@ -18,10 +18,10 @@ permalink: /research/
       {% if item.image and item.image != "" %}
         <img src="{{ item.image }}" class="img-responsive" width="80%" style="float: center; margin-bottom: 10px;" />
       {% endif %}
-      {% if item.question %}
-        <p><b>Question:</b> {{ item.question }}</p>
+      {% if item.question and item.question != "" %}
+        <p><b>Question:</b> {{ item.question | markdownify }}</p>
       {% endif %}
-      <p>{{ item.description }}</p>
+      <p>{{ item.description | markdownify }}</p>
       {% if item.link_url and item.link_url != "" %}
         <p><strong><a href="{{ item.link_url }}">{{ item.link_display }}</a></strong></p>
       {% endif %}
