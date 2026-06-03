@@ -1,5 +1,5 @@
 ---
-title: "CNDL@IITJ - Publications"
+title: "CNDL@BITSP - Publications"
 layout: gridlay
 sitemap: false
 permalink: /publications/

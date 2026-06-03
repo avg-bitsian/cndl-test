@@ -1,5 +1,5 @@
 - title: "The brain on Tech: How are smartphones changing our brains?"
-  image: "https://lh3.googleusercontent.com/d/1fWlSWYAT4uiFPTwqGZVPxRzYNIUD18Jzk=w900"
+  image: "https://lh3.googleusercontent.com/d/1fWsWYAT4uiFPTwGqZVPxRzYNIUDl8Jzk=w900"
   question: ""
   description: |
     The human brain is optimized for functioning in an environment very different from the modern world that it finds itself in. A few salient differences include: over-abundance of information (with internet), instant access to rapidly changing information (smartphones) and non-localized information (Augmented/Virtual Reality). This mismatch between the design target and actual environment naturally leads to pathological conditions such as behavioral problems, including addiction to smartphones.
@@ -18,9 +18,9 @@
   link_url: ""
   link_display: ""
 
-- title: "Whole-brain models for simulating TMS-EEG/pupil"
+- title: "Whole-brain models for simulating TMS-EEG"
   image: ""
-  question: "Can we estimate the changes in the network in the brain before they become too degraded?"
+  question: ""
   description: |
     Neurodegenerative diseases (i.e., diseases such as dementia, stroke etc. that are caused due to the degradation of the nervous system) pose a tremendous cost to society. At the core, the origin of these diseases is alterations in the neural (and other related) networks within the brain.
 

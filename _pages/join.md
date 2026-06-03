@@ -1,5 +1,5 @@
 ---
-title: "CNDL@IITJ - Join Us!"
+title: "CNDL@BITSP - Join Us!"
 layout: textlay
 sitemap: false
 permalink: /join/

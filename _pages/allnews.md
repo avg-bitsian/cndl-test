@@ -1,5 +1,5 @@
 ---
-title: "CNDL@IITJ - News"
+title: "CNDL@BITSP - News"
 layout: textlay
 sitemap: false
 permalink: /allnews.html

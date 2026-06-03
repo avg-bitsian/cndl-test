@@ -1,5 +1,5 @@
 ---
-title: "CNDL@IITJ - Team"
+title: "CNDL@BITSP - Team"
 layout: gridlay
 sitemap: false
 permalink: /team/
