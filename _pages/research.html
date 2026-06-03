@@ -1,40 +1,81 @@
 ---
 title: "CNDL@BITSP - Research"
-layout: gridlay
+layout: default
 sitemap: false
 permalink: /research/
 ---
 
+<style>
+  /* Custom Grid System */
+  .research-grid {
+    display: grid;
+    /* This automatically creates a 2-column layout on desktop, and 1-column on mobile */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 20px;
+  }
+
+  /* Custom Card Styling (replacing the Bootstrap 'well') */
+  .research-card {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Typography inside the card */
+  .research-card-title {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #333;
+  }
+
+  /* Image handling */
+  .research-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 0 auto 16px auto;
+    display: block;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .research-card p {
+    margin-bottom: 12px;
+    font-size: 0.95em;
+  }
+</style>
+
 <h2>Research</h2>
 
-<div class="row">
+<div class="research-grid">
   {% assign sorted_research = site.data.research %}
   {% for item in sorted_research %}
+    <div class="research-card">
+      <div class="research-card-title">{{ item.title }}</div>
+      
+      {% if item.image and item.image != "" %}
+        <img src="{{ item.image }}" alt="{{ item.title }}" />
+      {% endif %}
 
-    <div class="col-sm-6 clearfix">
-      <div class="well">
-        <pubtit>{{ item.title }}</pubtit>
-        
-        {% if item.image and item.image != "" %}
-          <img src="{{ item.image }}" class="img-responsive" width="80%" style="display: block; margin: 0 auto 10px auto;" />
-        {% endif %}
+      {% if item.question and item.question != "" %}
+        <p><strong>Question:</strong> {{ item.question }}</p>
+      {% endif %}
 
-        {% if item.question and item.question != "" %}
-          <p><b>Question:</b> {{ item.question }}</p>
-        {% endif %}
-
+      <div class="research-card-body">
         {{ item.description | markdownify }}
-
-        {% if item.link_url and item.link_url != "" %}
-          <p><strong><a href="{{ item.link_url }}">{{ item.link_display }}</a></strong></p>
-        {% endif %}
       </div>
+
+      {% if item.link_url and item.link_url != "" %}
+        <p style="margin-top: auto; padding-top: 15px;">
+          <strong><a href="{{ item.link_url }}">{{ item.link_display }}</a></strong>
+        </p>
+      {% endif %}
     </div>
-
-    {% assign mod = forloop.index | modulo: 2 %}
-    {% if mod == 0 and forloop.last == false %}
-      </div><div class="row">
-    {% endif %}
-
   {% endfor %}
 </div>
