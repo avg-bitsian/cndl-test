@@ -16,10 +16,10 @@ permalink: /research/
     <div class="well">
       <pubtit>{{ item.title }}</pubtit>
       {% if item.image and item.image != "" %}
-        <img src="{{ item.image }}" class="img-responsive" width="80%" style="float: center; margin-bottom: 10px;" />
+        <img src="{{ item.image }}" class="img-responsive" width="80%" style="display: block; margin: 0 auto 10px auto;" />
       {% endif %}
       {% if item.question and item.question != "" %}
-        <p><b>Question:</b> {{ item.question}}</p>
+        <p><b>Question:</b> {{ item.question }}</p>
       {% endif %}
       {{ item.description | markdownify }}
       {% if item.link_url and item.link_url != "" %}
@@ -29,10 +29,10 @@ permalink: /research/
   </div>
 
   {% assign mod = forloop.index | modulo: 2 %}
-  {% if mod == 0 %}
+  {% if mod == 0 and forloop.last == false %}
     </div><div class="row">
   {% endif %}
 
 {% endfor %}
 
-</div> <!-- closing row -->
+</div>
