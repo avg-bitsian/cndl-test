@@ -6,76 +6,98 @@ permalink: /research/
 ---
 
 <style>
-  /* Custom Grid System */
-  .research-grid {
+  .research-container {
     display: grid;
-    /* This automatically creates a 2-column layout on desktop, and 1-column on mobile */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 24px;
-    margin-top: 20px;
+    margin-top: 24px;
   }
 
-  /* Custom Card Styling (replacing the Bootstrap 'well') */
+  @media (max-width: 768px) {
+    .research-container {
+      grid-template-columns: 1fr;
+    }
+  }
+
   .research-card {
-    background-color: #f9f9f9;
-    border: 1px solid #e1e4e8;
-    border-radius: 8px;
-    padding: 24px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
-    display: flex;
-    flex-direction: column;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
   }
 
-  /* Typography inside the card */
-  .research-card-title {
-    font-size: 1.25em;
+  .research-card .pub-title {
     font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 16px;
+    font-size: 1.15em;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    display: block;
     color: #333;
   }
 
-  /* Image handling */
   .research-card img {
     max-width: 100%;
     height: auto;
-    border-radius: 6px;
-    margin: 0 auto 16px auto;
     display: block;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 0 auto 15px auto;
+    border-radius: 4px;
   }
 
-  .research-card p {
+  .research-card .question {
     margin-bottom: 12px;
-    font-size: 0.95em;
+    line-height: 1.5;
+  }
+
+  .research-card .description {
+    line-height: 1.6;
+    color: #444;
+  }
+
+  .research-card .description p {
+    margin-bottom: 12px;
+  }
+
+  .research-card .description ul {
+    margin-left: 20px;
+    margin-bottom: 12px;
+  }
+
+  .research-card .link-out {
+    margin-top: 12px;
   }
 </style>
 
 <h2>Research</h2>
 
-<div class="research-grid">
-  {% assign sorted_research = site.data.research %}
-  {% for item in sorted_research %}
-    <div class="research-card">
-      <div class="research-card-title">{{ item.title }}</div>
-      
-      {% if item.image and item.image != "" %}
-        <img src="{{ item.image }}" alt="{{ item.title }}" />
-      {% endif %}
+<div class="research-container">
 
-      {% if item.question and item.question != "" %}
-        <p><strong>Question:</strong> {{ item.question }}</p>
-      {% endif %}
+{% for item in site.data.research %}
 
-      <div class="research-card-body">
-        {{ item.description | markdownify }}
+  <div class="research-card">
+    <span class="pub-title">{{ item.title }}</span>
+
+    {% if item.image and item.image != "" %}
+      <img src="{{ item.image }}" alt="{{ item.title }}" />
+    {% endif %}
+
+    {% if item.question and item.question != "" %}
+      <div class="question">
+        <strong>Question:</strong> {{ item.question }}
       </div>
+    {% endif %}
 
-      {% if item.link_url and item.link_url != "" %}
-        <p style="margin-top: auto; padding-top: 15px;">
-          <strong><a href="{{ item.link_url }}">{{ item.link_display }}</a></strong>
-        </p>
-      {% endif %}
+    <div class="description">
+      {{ item.description | markdownify }}
     </div>
-  {% endfor %}
+
+    {% if item.link_url and item.link_url != "" %}
+      <div class="link-out">
+        <strong><a href="{{ item.link_url }}">{{ item.link_display }}</a></strong>
+      </div>
+    {% endif %}
+  </div>
+
+{% endfor %}
+
 </div>

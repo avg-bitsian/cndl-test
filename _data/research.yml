@@ -1,55 +1,42 @@
 - title: "The brain on Tech: How are smartphones changing our brains?"
   image: "https://lh3.googleusercontent.com/d/1fWlSWYAT4uiFPTwqGZVPxRzYNIUD18Jzk=w900"
+  question: ""
   description: |
-    The human brain is optimized for functioning in an environment very different from the modern world that it finds itself in. 
-    A few salient differences include: over-abundance of information (with internet), instant access to rapidly changing information (smartphones) and non-localized information (Augmented/Virtual Reality). 
-    This mismatch between the design target and actual environment naturally leads to pathological conditions such as behavioral problems, including addiction to smartphones.
-    One of the long term directions in our lab is to first understand the neural impact of modern consumer technology. 
-    In the future, we envisage predicting the adverse impacts of upcoming technologies and devising mitigation strategies for them.
-    
+    The human brain is optimized for functioning in an environment very different from the modern world that it finds itself in. A few salient differences include: over-abundance of information (with internet), instant access to rapidly changing information (smartphones) and non-localized information (Augmented/Virtual Reality). This mismatch between the design target and actual environment naturally leads to pathological conditions such as behavioral problems, including addiction to smartphones.
+
+    One of the long term directions in our lab is to first understand the neural impact of modern consumer technology. In the future, we envisage predicting the adverse impacts of upcoming technologies and devising mitigation strategies for them.
+
     We study this along two threads:
-    
-    **Thread 1 — Neural impact of smartphone overuse:** 
-    We are investigating how smartphone notifications evoke anxiety responses in the brain.
-    Smartphones provide *intermittent variable rewards*, something that has been shown to cause addiction to gambling. Every time you open your phone, an app or swipe to a new post, you are essentially gambling — once in a while you are rewarded, but generally you are disappointed. 
-    Is this causing smartphone addiction in a similar way that classical gambling causes addiction? How does smartphone use impact reward processing in the brain?
-    
+
+    **Thread 1 — Neural impact of smartphone overuse:** We are investigating how smartphone notifications evoke anxiety responses in the brain. Smartphones provide *intermittent variable rewards*, something that has been shown to cause addiction to gambling. Every time you open your phone, an app or swipe to a new post, you are essentially gambling — once in a while you are rewarded, but generally you are disappointed. Is this causing smartphone addiction in a similar way that classical gambling causes addiction? How does smartphone use impact reward processing in the brain?
+
     In addition to addiction, we are also investigating the anxiety and emotional impact of smartphone notifications, their impact on sleep, and information foraging during smartphone use.
-    
-    **Thread 2 — Smartphones for 'ecologically valid' cognitive neuroscience:** 
-    Classic cognitive neuroscience experiments are performed in the highly artificial laboratory environment, which is likely to strongly affect the results. 
-    *Smartphones provide a convenient means to get out of this artificial setup without losing the controlled nature of the lab*. 
-    Smartphone use allows us to study *gambling behavior*, *information foraging*, *autonomic emotional responses* and other phenomena within the lab, but in a much more naturalistic or *ecological* way.  
-    
+
+    **Thread 2 — Smartphones for 'ecologically valid' cognitive neuroscience:** Classic cognitive neuroscience experiments are performed in the highly artificial laboratory environment, which is likely to strongly affect the results. *Smartphones provide a convenient means to get out of this artificial setup without losing the controlled nature of the lab.* Smartphone use allows us to study *gambling behavior*, *information foraging*, *autonomic emotional responses* and other phenomena within the lab, but in a much more naturalistic or *ecological* way.
+
     We perform EEG and psychophysics experiments to study this. Contact us to contribute as a volunteer for this study!
   link_url: ""
   link_display: ""
 
 - title: "Whole-brain models for simulating TMS-EEG/pupil"
   image: ""
+  question: "Can we estimate the changes in the network in the brain before they become too degraded?"
   description: |
-    Neurodegenerative diseases (i.e., diseases such as dementia, stroke etc. that are caused due to the degradation of the nervous system) pose a tremendous cost to society. 
-    At the core, the origin of these diseases is alterations in the neural (and other related) networks within the brain.
-    
-    Today we have to wait for symptoms to appear before we can detect such diseases. 
-    Or we have to depend on expensive and inaccessible tools like MRI, which also are able to detect these diseases when they are already quite advanced. 
-    *Can we estimate the changes in the network in the brain before they become too degraded?*
-    
-    When you hit a tin from the outside, you can tell by the sound whether it is empty or filled; without having to open it. 
-    We want to use a similar technique to see if the network inside the brain is intact or degraded -- we hit it from outside with *Transcranial Magnetic Stimulation*, a strong magnetic pulse, and measure the response with *EEG*.
-    Based on the EEG, can we say something substantial about the state of the internal network?
-    
-    For doing this TMS-EEG procedure effectively, we are **developing whole brain models** that take the network structure as the input, model the effect of TMS and give realistic EEG as the output. 
-    We can then use these models to simulate different TMS paradigms and identify paradigms most effective for detecting small changes in brain connectivity.
+    Neurodegenerative diseases (i.e., diseases such as dementia, stroke etc. that are caused due to the degradation of the nervous system) pose a tremendous cost to society. At the core, the origin of these diseases is alterations in the neural (and other related) networks within the brain.
+
+    Today we have to wait for symptoms to appear before we can detect such diseases. Or we have to depend on expensive and inaccessible tools like MRI, which also are able to detect these diseases when they are already quite advanced. *Can we estimate the changes in the network in the brain before they become too degraded?*
+
+    When you hit a tin from the outside, you can tell by the sound whether it is empty or filled; without having to open it. We want to use a similar technique to see if the network inside the brain is intact or degraded -- we hit it from outside with *Transcranial Magnetic Stimulation*, a strong magnetic pulse, and measure the response with *EEG*. Based on the EEG, can we say something substantial about the state of the internal network?
+
+    For doing this TMS-EEG procedure effectively, we are **developing whole brain models** that take the network structure as the input, model the effect of TMS and give realistic EEG as the output. We can then use these models to simulate different TMS paradigms and identify paradigms most effective for detecting small changes in brain connectivity.
   link_url: ""
   link_display: ""
 
 - title: "Whole brain dynamical models"
   image: ""
+  question: ""
   description: |
-    Broadly, we are interested in developing simple, minimalistic whole-brain models that can still effectively explain experimental data. 
-    We collaborate with experimentalists, especially the Allen Institute, to get data for our models. 
-    Some of the projects include:
+    Broadly, we are interested in developing simple, minimalistic whole-brain models that can still effectively explain experimental data. We collaborate with experimentalists, especially the Allen Institute, to get data for our models. Some of the projects include:
 
     - Simple models for epilepsy in the mouse brain
     - Modeling neural dynamics in mouse brains under waking and anesthetized conditions
@@ -58,8 +45,8 @@
 
 - title: "Other directions"
   image: ""
+  question: ""
   description: |
-    Check out our projects page (coming soon) for other directions of work in our lab. We are interested in nature and the brain without constraining ourselves with labels. 
-    We thus pursue a broad range of topics that we find interesting, and think we have at least a teeny-tiny bit of expertise in!
+    Check out our projects page (coming soon) for other directions of work in our lab. We are interested in nature and the brain without constraining ourselves with labels. We thus pursue a broad range of topics that we find interesting, and think we have at least a teeny-tiny bit of expertise in!
   link_url: ""
   link_display: ""
